@@ -55,7 +55,7 @@ function NavBarAuth({
   page,
 }) {
   const axiosInstance = axios.create({
-    baseURL: "http://localhost:1937",
+    baseURL: "https://pfe-master-backend.vercel.app",
     headers: {
       "Content-Type": "application/json",
     },
@@ -428,7 +428,7 @@ function NavBarAuth({
                                   // <<<<<<< HEAD
                                   const axiosInstance = axios.create({
                                     baseURL:
-                                      "http://localhost:1937",
+                                      "https://pfe-master-backend.vercel.app",
                                     headers: {
                                       "Content-Type": "application/json",
                                     },

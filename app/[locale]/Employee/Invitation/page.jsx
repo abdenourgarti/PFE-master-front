@@ -39,7 +39,7 @@ const Invitation = () => {
   const accepteInvitation = async () => {
     setSubmitting(true);
     const axiosInstance = axios.create({
-      baseURL: "http://localhost:1937",
+      baseURL: "https://pfe-master-backend.vercel.app",
       headers: {
         "Content-Type": "application/json",
       },

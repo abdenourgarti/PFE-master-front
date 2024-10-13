@@ -16,7 +16,7 @@ import {
 import "./style.css";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:1937",
+  baseURL: "https://pfe-master-backend.vercel.app",
   headers: {
     "Content-Type": "application/json",
   },
@@ -255,7 +255,7 @@ const AddProjectForm = ({
   //   useEffect(() => {
   //     const getinvitations = async (values) => {
   //       const axiosInstance = axios.create({
-  //         baseURL: "http://localhost:1937",
+  //         baseURL: "https://pfe-master-backend.vercel.app",
   //         headers: {
   //           "Content-Type": "application/json",
   // =======

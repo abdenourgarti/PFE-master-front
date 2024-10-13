@@ -16,7 +16,7 @@ import { useLocale } from "next-intl";
 const TaskCard = (task) => {
   const router = useRouter();
   const axiosInstance = axios.create({
-    baseURL: "http://localhost:1937",
+    baseURL: "https://pfe-master-backend.vercel.app",
     headers: {
       "Content-Type": "application/json",
     },
