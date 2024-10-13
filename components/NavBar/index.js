@@ -66,7 +66,7 @@ function NavBar({ currentScreen }) {
                 <div className="flex flex-shrink-0 items-center ml-10 sm:ml-0">
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                     alt="Your Company"
                   />
                 </div>

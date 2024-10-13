@@ -53,7 +53,7 @@ import UpdateProjectForm from "../../UpdateProjectForm";
 
 const ProjectDetails = ({ project, reloadpage, reload }) => {
   const axiosInstance = axios.create({
-    baseURL: "https://back-pfe-master.vercel.app",
+    baseURL: "http://localhost:1937",
     headers: {
       "Content-Type": "application/json",
     },
@@ -454,7 +454,7 @@ const ProjectDetails = ({ project, reloadpage, reload }) => {
                     className="text-black border-2 flex flex-col justify-between items-center">
                     <div className="overflow-hidden sm:h-32 h-20 w-full">
                       <iframe
-                        src={`https://back-pfe-master.vercel.app/uploads/${document}`}
+                        src={`http://localhost:1937/uploads/${document}`}
                         className="w-full h-full"
                         frameBorder="0"
                       />
@@ -467,7 +467,7 @@ const ProjectDetails = ({ project, reloadpage, reload }) => {
                         <FaCircleDown
                           onClick={() =>
                             handleDownload(
-                              `https://back-pfe-master.vercel.app/uploads/${document}`
+                              `http://localhost:1937/uploads/${document}`
                             )
                           }
                           className="text-black hover:text-blue-400 download w-6 h-6 cursor-pointer mr-2"

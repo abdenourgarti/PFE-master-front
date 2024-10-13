@@ -16,7 +16,7 @@ function Contact() {
 
       // <<<<<<< HEAD
       const response = await axios.post(
-        "https://back-pfe-master.vercel.app/send-email",
+        "http://localhost:1937/send-email",
         {
           name,
           email,
@@ -26,7 +26,7 @@ function Contact() {
       );
       // =======
       // const response = await axios.post(
-      //   "https://back-pfe-master.vercel.app/send-email",
+      //   "http://localhost:1937/send-email",
       //   {
       //     name,
       //     email,

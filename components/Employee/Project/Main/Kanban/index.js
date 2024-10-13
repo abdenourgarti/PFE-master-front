@@ -7,7 +7,7 @@ import axios from "axios";
 import Loader from "@/components/Loader";
 const KanbanBoard = ({ project, user, teamId, role }) => {
   const axiosInstance = axios.create({
-    baseURL: "https://back-pfe-master.vercel.app",
+    baseURL: "http://localhost:1937",
     headers: {
       "Content-Type": "application/json",
     },

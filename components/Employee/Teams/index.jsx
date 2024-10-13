@@ -43,7 +43,7 @@ function TeamsPage() {
   const [showteamtoInvite, setShowteamtoInvite] = useState("")
 
   const axiosInstance = axios.create({
-    baseURL: "https://back-pfe-master.vercel.app",
+    baseURL: "http://localhost:1937",
     headers: {
       "Content-Type": "application/json",
     },
@@ -80,7 +80,7 @@ function TeamsPage() {
   // useEffect(() => {
   //   const getinvitations = async (values) => {
   // const axiosInstance = axios.create({
-  //   baseURL: "https://back-pfe-master.vercel.app",
+  //   baseURL: "http://localhost:1937",
   //   headers: {
   //     "Content-Type": "application/json",
   // =======
@@ -109,7 +109,7 @@ function TeamsPage() {
     // <<<<<<< HEAD
     const getinvitations = async (values) => {
       const axiosInstance = axios.create({
-        baseURL: "https://back-pfe-master.vercel.app",
+        baseURL: "http://localhost:1937",
         headers: {
           "Content-Type": "application/json",
         },
@@ -140,7 +140,7 @@ function TeamsPage() {
   // useEffect(() => {
   //   const getTeams = async (values) => {
   //     const axiosInstance = axios.create({
-  //       baseURL: "https://back-pfe-master.vercel.app",
+  //       baseURL: "http://localhost:1937",
   //       headers: {
   //         "Content-Type": "application/json",
   //       },
@@ -203,7 +203,7 @@ function TeamsPage() {
   // useEffect(() => {
   //   const getTeams = async (values) => {
   //     const axiosInstance = axios.create({
-  //       baseURL: "https://back-pfe-master.vercel.app",
+  //       baseURL: "http://localhost:1937",
   //       headers: {
   //         "Content-Type": "application/json",
   //       },
@@ -254,7 +254,7 @@ function TeamsPage() {
   //   useEffect(() => {
   //     // const getPeople = async (values) => {
   //     //   const axiosInstance = axios.create({
-  //     //     baseURL: "https://back-pfe-master.vercel.app",
+  //     //     baseURL: "http://localhost:1937",
   //     //     headers: {
   //     //       "Content-Type": "application/json",
   // // =======
@@ -312,7 +312,7 @@ function TeamsPage() {
   const handleSubmit = async (values, { setSubmitting }) => {
     // <<<<<<< HEAD
     //     const axiosInstance = axios.create({
-    //       baseURL: "https://back-pfe-master.vercel.app",
+    //       baseURL: "http://localhost:1937",
     //       headers: {
     //         "Content-Type": "application/json",
     //       },

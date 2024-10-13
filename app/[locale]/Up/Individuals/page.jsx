@@ -28,7 +28,7 @@ import { auth } from "../../firebase/config";
 import { useRouter } from "next/navigation";
 
 const axiosInstance = axios.create({
-  baseURL: "https://back-pfe-master.vercel.app",
+  baseURL: "http://localhost:1937",
   headers: {
     "Content-Type": "application/json",
   },
@@ -38,7 +38,7 @@ const deleteUser = async (email) => {
   try {
     // <<<<<<< HEAD
     //     const axiosInstance = axios.create({
-    //       baseURL: "https://back-pfe-master.vercel.app",
+    //       baseURL: "http://localhost:1937",
     //       headers: {
     //         "Content-Type": "application/json",
     //       },
@@ -135,7 +135,7 @@ function Individuals() {
       //       // console.log(JSON.stringify(values, null, 2));
       //       // Create an instance of Axios with default headers
       //       const axiosInstance = axios.create({
-      //         baseURL: "https://back-pfe-master.vercel.app",
+      //         baseURL: "http://localhost:1937",
       //         headers: {
       //           "Content-Type": "application/json",
       //         },

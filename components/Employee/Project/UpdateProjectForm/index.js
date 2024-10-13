@@ -6,7 +6,7 @@ import * as Yup from "yup";
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://back-pfe-master.vercel.app",
+  baseURL: "http://localhost:1937",
   headers: {
     "Content-Type": "application/json",
   },

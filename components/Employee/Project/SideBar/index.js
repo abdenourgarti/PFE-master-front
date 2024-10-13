@@ -36,7 +36,7 @@ function SideBarProject({ currentPage }) {
         <div className="py-4  flex justify-center items-center">
           <img
             className="h-14 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
             alt="Your Company"
           />
         </div>

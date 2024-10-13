@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
       <div className="flex ">
         <img
           className="h-8 mr-2 mt-2 w-auto"
-          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+          src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
           alt="Your Company"
         />
         <div>
